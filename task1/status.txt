@@ -16,20 +16,5 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-commit 03d6f8abcfbd1c7e78baf6db1877fbb73dba566d (HEAD -> master, origin/master)
-Author: apestova <1pest0vanna1@gmail.com>
-Date:   Sat Feb 15 21:41:48 2020 +0300
-
-    add task1/log.txt
-
-commit 2f2506fed37706d2a6fd204030dde2112d57d420
-Author: apestova <1pest0vanna1@gmail.com>
-Date:   Sat Feb 15 21:36:42 2020 +0300
-
-    add task1/status.txt
-
-commit 770e8a585e5c740f03eb5d07debba5ef0aef6218
-Author: apestova <1pest0vanna1@gmail.com>
-Date:   Sat Feb 15 21:31:13 2020 +0300
-
-    add .gitignore
+On branch master
+nothing to commit, working tree clean
