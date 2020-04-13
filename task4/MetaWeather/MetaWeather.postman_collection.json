@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "3288d3dd-9c38-415a-a010-725e762f6581",
+		"name": "MetaWeather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www.metaweather.com/api/location/44418/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.metaweather.com/api/location/44418/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"metaweather",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"44418",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.metaweather.com/api/location/44418/2020/3/10",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.metaweather.com/api/location/44418/2020/3/10",
+					"protocol": "https",
+					"host": [
+						"www",
+						"metaweather",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"44418",
+						"2020",
+						"3",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://www.metaweather.com/api/location/search/?query=london",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.metaweather.com/api/location/search/?query=london",
+					"protocol": "https",
+					"host": [
+						"www",
+						"metaweather",
+						"com"
+					],
+					"path": [
+						"api",
+						"location",
+						"search",
+						""
+					],
+					"query": [
+						{
+							"key": "query",
+							"value": "london"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

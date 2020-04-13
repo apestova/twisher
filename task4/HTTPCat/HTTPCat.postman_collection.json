@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "aacb5e89-a6e1-4f0b-a151-7ddf7b0bd79f",
+		"name": "HTTPCat",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://http.cat/100",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://http.cat/100",
+					"protocol": "https",
+					"host": [
+						"http",
+						"cat"
+					],
+					"path": [
+						"100"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://http.cat/207",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://http.cat/207",
+					"protocol": "https",
+					"host": [
+						"http",
+						"cat"
+					],
+					"path": [
+						"207"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://http.cat/200",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://http.cat/200",
+					"protocol": "https",
+					"host": [
+						"http",
+						"cat"
+					],
+					"path": [
+						"200"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
