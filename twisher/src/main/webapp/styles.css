@@ -1,0 +1,309 @@
+body {
+    font: 0.8em Arial, Helvetica, sans-serif;
+    background: #D7E1F2;
+    color: #000000;
+}
+a {
+    color: #000 !important;
+    text-decoration: none
+}
+.leftstr, .rightstr {
+    float: left;
+    width: 48%;
+    margin-left: 1%;
+}
+
+.rightstr {
+    text-align: right;
+
+}
+
+
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+header {
+    background: rgba(0, 128, 128, 0.3);
+}
+footer {
+    font-size: 1em;
+    background: rgba(0, 128, 128, 0.3);
+    flex-shrink: 0;
+}
+.container {
+    width: 100%;
+    padding: 1px;
+    margin: 0 auto;
+}
+
+.container:after, .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+    font-family: Сomic Sans MS;
+    font-weight: 900;
+    font-size: 37px;
+    padding: 3px;
+    margin-left: 20px;
+}
+nav ul {
+    float: right;
+    font-size: 24px;
+    margin: 0;
+    padding: 15px;
+    font-family: Arial;
+    list-style: none;
+    font-weight: 100;
+    font-stretch: ultra-condensed;
+
+}
+nav li {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+
+
+.row {
+    margin-bottom: 15px;
+}
+h1, h2 {
+
+    font-weight: 100;
+    text-align: center;
+    margin-block-end: 0em;
+
+
+}
+h1 {
+    font-size: 1.7em;
+    padding-bottom: 0em;
+    margin-block-start: 0.5em;
+    padding-top: 0.5em;
+    margin-block-end: 0em;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+    margin-block-end: 0.5em;
+
+}
+.button2 {
+    user-select: none;
+    background: rgba(0, 128, 128, 0.4);
+    padding: 1% 6%;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 128, 128);
+}
+h3 {
+    font-size: 1.3em;
+    margin-block-end: 0.5em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
+    display: inline-block;
+}
+
+.image {
+    padding-inline-start: 25%;
+    width: 50%;
+}
+.filter {
+    background: rgba(0, 128, 128, 0.3);
+    border-radius: 12px;
+}
+.data, .author {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-inline-start: 10%;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+.in {
+    margin-inline-start: 10%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    width: 70%;
+    height: 15%;
+}
+.post {
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 128, 128);
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    margin-block-start: 5%;
+    margin-block-end: 5%;
+    border-radius: 12px;
+}
+.textpost {
+    margin-inline-start: 10px;
+    font-size: 15px;
+    margin-block-start: 0em;
+}
+.users {
+    font-size: 16px;
+    margin-inline-start: 2.5%;
+    margin-inline-end: 10%;
+    font-weight: 600;
+
+}
+
+.data1 {
+    font-size: 12px;
+    margin-inline-end: 2.5%;
+
+}
+
+.time {
+    font-size: 12px;
+    margin-inline-end: 0.5%;
+
+}
+.like {
+    padding: 1% 8%;
+    border-radius: 12px;
+}
+
+.likes {
+    display: inline-block;
+    margin-inline-start: 1.5%;
+}
+.users, .data1, .time, .deled, .like {
+    margin-block-start: 0.5em;
+    margin-block-end: 0em;
+}
+
+.deled, .like {
+    font-size: 14px;
+    user-select: none;
+    background: rgba(0, 128, 128, 0.4);
+    border: 1px solid rgb(0, 128, 128);
+}
+.button1 {
+    user-select: none;
+    padding: 7% 15%;
+    border-radius: 50%;
+    border: 3px solid rgba(0, 128, 128, 0.3);
+
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 10%;
+    background: linear-gradient(to left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .0) 50%, rgba(0, 0, 0, .3)), linear-gradient(#AFEEEE, #008080, #AFEEEE);
+}
+.twish{
+    text-align: center;
+    float: left;
+}
+@media (min-width: 800px) and (max-width: 1366px){
+    .col-1-4 {
+        width: 25%;
+        float: left;
+    }
+
+    .col-1-2 {
+        width: 50%;
+        float: left;
+    }
+    p2 {
+        display: inline-block;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-inline-start: 3px;
+        width: 60%;
+    }
+
+    .deled {
+        display: inline-block;
+        padding: 1% 4%;
+    }
+
+
+}
+@media (min-width: 500px) and (max-width: 800px) {
+
+    p2 {
+
+        margin-block-start: 1em;
+        margin-inline-start: 3px;
+        margin-block-end: 0.5em;
+        padding-block-end: 1em;
+
+    }
+    .col-1-2 {
+        width: 50%;
+        float: left;
+    }
+
+    .col-1-4 {
+        width: 25%;
+        float: left;
+    }
+
+    .deled {
+        margin-block-start: 0.5em;
+        padding: 1% 4%;
+        margin-inline-start: 1em;
+        display: block;
+        width: 20%;
+        text-align: center;
+    }
+
+    .button1 {
+        user-select: none;
+        padding: 5% 13%;
+        border-radius: 50%;
+        border: 3px solid rgba(0, 128, 128, 0.3);
+        font-size: 20px;
+        font-weight: bold;
+        background: linear-gradient(to left, rgba(0, 0, 0, .3), rgba(0, 0, 0, .0) 50%, rgba(0, 0, 0, .3)), linear-gradient(#AFEEEE, #008080, #AFEEEE);
+    }
+
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    p2 {
+        display: inline-block;
+        margin-block-start: 0.5em;
+        margin-block-end: 0.5em;
+        margin-inline-start: 3px;
+        width: 60%;
+    }
+
+    .deled {
+        display: inline-block;
+        padding: 1% 4%;
+    }
+}
+@media (min-width: 0px) and (max-width: 400px) {
+    p2 {
+
+        margin-block-start: 1em;
+        margin-inline-start: 3px;
+        margin-block-end: 0.5em;
+        padding-block-end: 1em;
+
+    }
+    .deled {
+        margin-block-start: 0.5em;
+        padding: 1% 4%;
+        margin-inline-start: 1em;
+        display: block;
+        width: 20%;
+        text-align: center;
+    }
+
+}
