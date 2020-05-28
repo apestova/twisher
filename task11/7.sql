@@ -1,0 +1,1 @@
+select datediff(now(), min(CREATED_AT)) as "Days from first post" from post;
