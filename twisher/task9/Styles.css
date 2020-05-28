@@ -1,0 +1,217 @@
+
+body {
+   margin: 0 0 0 0 ;
+    background-color: #D7E1F2;
+}
+
+#headerDiv {
+    background: rgba(0, 128, 128, 0.3);
+    position: fixed;
+    width: 100%;
+    min-height: 60px;
+}
+
+.headerH {
+    margin: 20px 0px 0px 5%;
+    display: inline-block;
+}
+
+
+
+
+#createdBy {
+    text-align: center;
+}
+
+#footerDiv {
+    background: rgba(0, 128, 128, 0.3);
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    align: bottom;
+    bottom: 0;
+}
+.leftstr, .rightstr {
+    float: left;
+    width: 48%;
+    margin-left: 1%;
+}
+
+.rightstr {
+    text-align: right;
+
+}
+.postDiv {
+    height: fit-content;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 128, 128);
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+
+.filter {
+    background: rgba(0, 128, 128, 0.3);
+    border-radius: 12px;
+}
+#addTenDiv {
+    height: 5vh;
+    width: 100%;
+}
+
+
+#posts {
+    position: absolute;
+    height: fit-content;
+    width: 60%;
+    margin: 70px 40% 8vh 20%;
+    min-width: 120px;
+    min-height: 300px;
+    z-index: -1;
+}
+
+#search {
+    height: fit-content;
+    width: 18%;
+    margin: 70px 0px 8vh 8px;
+    position: fixed;
+    min-width: 150px;
+    min-height: 120px;
+}
+
+
+
+
+#createdPost {
+    position: fixed;
+    height: fit-content;
+    width: 18%;
+    margin: 70px 1% 8vh 81%;
+    min-width: 120px;
+    min-height: 120px;
+
+}
+#newPost{
+    margin: 20px 10% 0px 10%;
+    text-align: center;
+}
+.buttonTwish{
+    user-select: none;
+    background: rgba(0, 128, 128, 0.4);
+    padding: 1% 6%;
+    font-size: 64px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 128, 128);
+    border-radius: 12px;
+}
+
+#logo {
+    height: 40px;
+    margin: 10px 0px 0px 30px;
+    float: left;
+}
+
+#logout {
+    float: right;
+    margin-right: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #000 !important;
+}
+
+
+
+.button {
+    user-select: none;
+    background: rgba(0, 128, 128, 0.4);
+    padding: 1% 6%;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 128, 128);
+
+}
+
+
+input {
+    width: 70%;
+    padding: 5px 10px;
+    margin: 5px 10%;
+    text-align: center;
+}
+
+.searchH {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#addTen {
+    margin-left: 35%;
+    margin-right: 35%;
+
+    margin-top: 10px;
+}
+
+#filters {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.postName {
+    margin: 20px 0px 0px 20px;
+    display: inline-block;
+}
+
+.postTime {
+    margin-left: 40px;
+}
+
+
+
+.editDelete {
+    float: right;
+    margin-right: 1%;
+}
+
+.postText {
+    margin: 30px 20px 0px 20px;
+}
+
+.postImg {
+    height: 200px;
+
+    margin: 10px 0px 0px 20px;
+}
+
+
+
+.postImgDiv {
+    text-align: center;
+}
+
+.likesCount {
+    color: teal;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.likeButton {
+    margin-left: 30px;
+    background: rgba(0, 128, 128, 0.4);
+    padding: 1% 2%;
+    font-size: 16px;
+    border: 1px solid rgb(0, 128, 128);
+    border-radius: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+
+#searchButton {
+
+    margin:  10px 35% 10px 35%;
+}
